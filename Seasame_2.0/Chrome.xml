@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="chSuite">
+	<test thread-count="5" name="chTest">
+
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+
+		 <class name="cup_dashboard.Further_Corrections" />
+			<class name="cup_dashboard.Ready_to_Publish"/> 
+			<class name="cup_dashboard.Proof_sent_to_Author"/>  
+				<class name="cup_dashboard.Corrections_Received"/>
+				  <class name="cup_dashboard.Awaiting_PM_approval"/> 
+				<class name="cup_dashboard.Awaiting_PE_approval"/>
+				 <class name="cup_dashboard.Production"/> 
+
+		</classes>
+
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

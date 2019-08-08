@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+  <test name="Test">
+  
+  
+   <parameter name="browser"  value="chrome" />
+     
+    <classes> 
+         <class name="com.seasame.newbook.NewBook5"/>           
+    </classes>
+    
+    
+    
+  </test> <!-- Test -->
+  
+  <test name="yTest">
+   <parameter name="browser"  value="firefox" />
+   
+   
+   
+    <classes>     
+           
+  
+   </classes>
+         
+         
+  </test> <!-- Test -->
+  
+  
+  <test name="ieTest">
+   <parameter name="browser" value="internet explorer" />
+   
+    <classes>
+     
+      
+    </classes>
+    
+    
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
